@@ -78,6 +78,4 @@ class ModelTest(TestCase):
             price=5.00
         )
 
-        print(recipe)
-
         self.assertEqual(str(recipe), recipe.title)
