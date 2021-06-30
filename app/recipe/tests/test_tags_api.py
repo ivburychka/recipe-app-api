@@ -73,6 +73,7 @@ class PrivateTagsApiTests(TestCase):
             user=self.user,
             name=payload['name']
         ).exists()
+
         self.assertTrue(exists)
 
     def test_create_tag_invalid(self):
